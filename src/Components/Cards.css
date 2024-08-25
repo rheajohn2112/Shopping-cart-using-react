@@ -1,0 +1,77 @@
+.parts {
+    width: 400px;
+    height: 400px;
+    /* display:flex;
+    flex-wrap:wrap; */
+    border: 1px solid white;
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+    /* margin:auto; */
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+img {
+    width: 50%;
+    height: 200px;
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    background-color: none;
+    padding: 10px;
+
+
+}
+
+.heady {
+    font-size: larger;
+    /* border:solid; */
+    /* height:40px; */
+
+
+
+}
+
+* {
+    margin: 10px;
+
+}
+
+.full {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+    margin-top:30px;
+    margin-left:30px;
+    gap:30px;
+
+}
+
+.pic {
+    /* border:solid; */
+    display: flex;
+    justify-content: center;
+    /* border:solid; */
+
+}
+
+body {
+    background: linear-gradient(to right, rgb(237, 242, 224), white);
+}
+
+.price {
+    font-weight: 700;
+
+
+
+}
+
+.parts {
+    border-radius: 14px;
+    box-shadow: 5px 5px 5px rgb(194, 178, 178);
+}

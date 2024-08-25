@@ -1,0 +1,53 @@
+/* Reset default list styling */
+ul, li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* Styling for list items */
+li {
+  display: inline-block;
+  color: black;
+  padding: 10px 20px; /* Add padding for better spacing */
+  cursor: pointer; /* Change cursor on hover */
+  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+/* Hover effect for list items */
+li:hover {
+  background-color: rgba(73, 70, 70, 0.2); /* Slight background change on hover */
+  border-radius: 4px; /* Rounded corners */
+}
+
+/* Styling for the navigation bar */
+nav {
+  width: 100%;
+  background-color: white; /* Background color for contrast */
+  height: 60px; /* Increased height for better visibility */
+  display: flex;
+  align-items: center; /* Center items vertically */
+  padding: 0 20px; /* Horizontal padding */
+  position: sticky;
+  top: 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adding shadow */
+  z-index: 1000;
+}
+
+ul {
+  display: flex;
+  gap: 20px;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  margin: 0; /* Reset default margin */
+  padding: 0; /* Reset default padding */
+}
+.ss{
+  border: 1px solid gray;
+  height:20px;
+  padding:5px;
+  border-radius: 4px;
+}

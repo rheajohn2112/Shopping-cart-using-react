@@ -1,0 +1,73 @@
+.center-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.container {
+    width: 30vw;
+    height: 80vh;
+    border: solid white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+    overflow: hidden; /* Ensure no overflow */
+}
+
+.imagediv {
+    display: flex;
+    justify-content: center;
+    flex: 1 1 40%; /* Adjust flex basis to control the space taken by the image */
+}
+
+.desim {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.tit {
+    font-size: 1.2em; /* Adjust font size to make it fit */
+    margin: 5px 0;
+    text-align: center;
+}
+
+.pri {
+    margin: 5px 0;
+    font-weight: 600;
+    text-align: center;
+}
+
+.des {
+    margin: 5px 0;
+    text-align: center;
+    flex: 1 1 auto; /* Allow the description to grow and shrink as needed */
+}
+
+.butt {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.add {
+    height: 35px; /* Adjust button height */
+    width: 90px;  /* Adjust button width */
+    background-color: rgba(73, 70, 70, 0.2);
+    border-radius: 10px;
+    border-style: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.add:hover {
+    background-color: rgba(151, 47, 47, 0.2);
+}

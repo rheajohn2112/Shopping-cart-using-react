@@ -1,0 +1,39 @@
+.cartfull {
+  display:flex;
+  flex-wrap:wrap;
+
+}
+.cartimg{
+  width:160px;
+  height:160px;
+}
+.indi {
+  border:1px solid gray;; 
+  width:100vw;
+  margin-top:20px;
+  margin-left:20px;
+  margin-right:20px;
+  border-radius: 14px;
+  padding:10px;
+  background: linear-gradient(to right, rgb(246, 248, 243), white);
+  box-shadow: 5px 5px 5px rgb(194, 178, 178);
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.trash{
+  width:60px;
+  height:40px;
+  
+}
+ /* .john{
+  position:absolute;
+  left:60px;
+  top:50px;
+}  */
+  
+.shr{
+  border:none;
+  background: transparent;
+}
